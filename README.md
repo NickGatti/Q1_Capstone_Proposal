@@ -21,3 +21,15 @@
 ### Idea: A website that Ciphers messages in a chat room setting. Users log into the site using a generated key file. Information does not exist on the server. If key file is lost then the user loses their account and their user information. Messages are sent through a websocket and ciphered before sent. To decode messages, users must share a cipher account which will be held on their keyfile which will contain all of their user information. Users will have level of view control through keyfile settings. If a user wants another user that he has shared a chiper key with, he can control how much the other user sees with group and user account settings. Server login will only use keyfile login information to ensure the keyfile is legit and to add the user to the active user list. It will also ensure that it has been one that could have been made by the server. Keyfiles will be linked to a new cryptocurrency blockchain that will ensure their safety and the site will operate as a DAPP on the ETH network.
 
 ### Pipe dream, but how much of it I get done? Who knows.
+
+#### Problems solved: Security. Information not 'hackable or crackable' information only becomes 'looseable'
+
+#### Who has this problem: Anyone who uses the internet or any device or uses society at all
+
+#### How will this project solve this problem: It will protect information and isolate data to very few sources that are highly secure
+
+#### What outputs does it produce: Communication
+
+#### What API's will it use: It's own API
+
+#### What technologies do you plan to use: node, npm, webpack, jQuery and more later on
